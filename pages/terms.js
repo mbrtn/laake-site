@@ -5,7 +5,7 @@ import Nav from "../components/Nav";
 function IndexPage() {
   return (
     <>
-      <HeadBlock title="Läke | Privacy Policy" />
+      <HeadBlock title="Läke | Terms of Service" />
       <Nav />
       <div className={css.page}>
         <h1>Terms of Service</h1>
