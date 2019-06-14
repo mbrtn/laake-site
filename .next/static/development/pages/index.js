@@ -18,9 +18,9 @@ __webpack_require__.r(__webpack_exports__);
 
 function GlobalCss() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1508141796",
+    id: "2085888330",
     __self: this
-  }, "body{background:black;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9taWtlYnVydG9uL1Byb2plY3RzL2xhYWtlLXNpdGUvY29tcG9uZW50cy9HbG9iYWxDc3MuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRXVCLEFBRzBCLGlCQUNuQiIsImZpbGUiOiIvVXNlcnMvbWlrZWJ1cnRvbi9Qcm9qZWN0cy9sYWFrZS1zaXRlL2NvbXBvbmVudHMvR2xvYmFsQ3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gR2xvYmFsQ3NzKCkge1xuICByZXR1cm4gKFxuICAgIDxzdHlsZSBnbG9iYWwganN4PntgXG4gICAgICBib2R5IHtcbiAgICAgICAgYmFja2dyb3VuZDogYmxhY2s7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBHbG9iYWxDc3M7XG4iXX0= */\n/*@ sourceURL=/Users/mikeburton/Projects/laake-site/components/GlobalCss.js */");
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9taWtlYnVydG9uL1Byb2plY3RzL2xhYWtlLXNpdGUvY29tcG9uZW50cy9HbG9iYWxDc3MuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQzRCIiwiZmlsZSI6Ii9Vc2Vycy9taWtlYnVydG9uL1Byb2plY3RzL2xhYWtlLXNpdGUvY29tcG9uZW50cy9HbG9iYWxDc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBHbG9iYWxDc3MoKSB7XG4gIHJldHVybiA8c3R5bGUgZ2xvYmFsIGpzeD57YGB9PC9zdHlsZT47XG59XG5cbmV4cG9ydCBkZWZhdWx0IEdsb2JhbENzcztcbiJdfQ== */\n/*@ sourceURL=/Users/mikeburton/Projects/laake-site/components/GlobalCss.js */");
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (GlobalCss);
@@ -64,6 +64,68 @@ function HeadBlock(props) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    sizes: "180x180",
+    href: "/favicon/apple-touch-icon.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "32x32",
+    href: "/favicon/favicon-32x32.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "16x16",
+    href: "/favicon/favicon-16x16.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "manifest",
+    href: "/favicon/site.webmanifest",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "mask-icon",
+    href: "/favicon/safari-pinned-tab.svg",
+    color: "#ff2c52",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "msapplication-TileColor",
+    content: "#ffffff",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "theme-color",
+    content: "#ffffff",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }));
@@ -4546,7 +4608,7 @@ function IndexPage() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HeadBlock__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "xx",
+    title: "L\xE4ke",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -4559,7 +4621,7 @@ function IndexPage() {
       lineNumber: 10
     },
     __self: this
-  }, "sd"));
+  }, "L\xE4ke"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
