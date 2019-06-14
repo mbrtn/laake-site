@@ -18,16 +18,23 @@ var _jsxFileName = "/Users/mikeburton/Projects/laake-site/components/HeadBlock.j
 
 
 function HeadBlock(props) {
+  var setGoogleTags = function setGoogleTags() {
+    return {
+      __html: "\n        window.dataLayer = window.dataLayer || [];\n        function gtag(){dataLayer.push(arguments);}\n        gtag('js', new Date());\n        gtag('config', 'UA-142159020-1');\n      "
+    };
+  };
+
+  var isProduction = "development" === "production";
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 19
     },
     __self: this
   }, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -36,7 +43,7 @@ function HeadBlock(props) {
     key: "viewport",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -45,7 +52,7 @@ function HeadBlock(props) {
     href: "/static/apple-touch-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -55,7 +62,7 @@ function HeadBlock(props) {
     href: "/static/favicon-32x32.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 30
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -65,7 +72,7 @@ function HeadBlock(props) {
     href: "/static/favicon-16x16.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -73,7 +80,7 @@ function HeadBlock(props) {
     href: "/static/site.webmanifest",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -82,7 +89,7 @@ function HeadBlock(props) {
     color: "#ff2c52",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -90,7 +97,7 @@ function HeadBlock(props) {
     content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -98,10 +105,31 @@ function HeadBlock(props) {
     content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 49
     },
     __self: this
-  }));
+  }), isProduction && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fragment, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    dangerouslySetInnerHTML: this.setGoogleTags(),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (HeadBlock);
@@ -10595,7 +10623,7 @@ function IndexPage() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 0:
 /*!*********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmikeburton%2FProjects%2Flaake-site%2Fpages%2Findex.js ***!
   \*********************************************************************************************************************************/
@@ -10618,5 +10646,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[0,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
