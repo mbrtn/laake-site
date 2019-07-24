@@ -71,6 +71,22 @@ a:active {
   background-position: 50%, 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: 278px 278px, 750px 750px;
+
+  &:after {
+    // content: "";
+    // background-image: url(/static/iphone.png);
+    // background-position: 50%;
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+    // width: 858px;
+    // height: 609px;
+    // display: block;
+    // position: absolute;
+    // transform: scale(0.7) translate(-33%, -83%);
+    // transform-origin: 50%;
+    // top: 50%;
+    // left: 50%;
+  }
 }
 
 .download {

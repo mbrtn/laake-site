@@ -108,28 +108,22 @@ function HeadBlock(props) {
       lineNumber: 49
     },
     __self: this
-  }), isProduction && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fragment, {
+  }), isProduction && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    async: true,
-    src: "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X",
+  }), isProduction && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    dangerouslySetInnerHTML: setGoogleTags(),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 56
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    dangerouslySetInnerHTML: this.setGoogleTags(),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  })));
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (HeadBlock);
