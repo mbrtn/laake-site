@@ -47,12 +47,14 @@ function HeadBlock(props) {
       />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
+
       {isProduction && (
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"
         />
       )}
+
       {isProduction && <script dangerouslySetInnerHTML={setGoogleTags()} />}
     </Head>
   );

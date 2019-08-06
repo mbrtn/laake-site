@@ -113,14 +113,14 @@ function HeadBlock(props) {
     src: "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 52
     },
     __self: this
   }), isProduction && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     dangerouslySetInnerHTML: setGoogleTags(),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     },
     __self: this
   }));
@@ -10542,7 +10542,7 @@ var _jsxFileName = "/Users/mikeburton/Projects/laake-site/pages/index.js";
 
 function IndexPage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HeadBlock__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "L\xE4ke",
+    title: "L\xE4ke \u2013 Medication Tracker & reminder",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -10601,16 +10601,32 @@ function IndexPage() {
       lineNumber: 21
     },
     __self: this
-  }), "See stats and logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_1___default.a.download,
-    href: "https://apps.apple.com/app/l%C3%A4ke/id1458632978",
-    title: "Download in AppStore",
+  }), "See stats and logs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_1___default.a.buttons,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_1___default.a.downloadIOs,
+    href: "https://apps.apple.com/app/l%C3%A4ke/id1458632978",
+    title: "Download in AppStore",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_1___default.a.downloadGoogle,
+    href: "https://play.google.com/store/apps/details?id=com.fyramedia.laake",
+    title: "Get it on Google Play",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  })))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
