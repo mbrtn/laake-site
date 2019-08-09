@@ -9,7 +9,7 @@ function IndexPage() {
       <Nav />
       <div className={css.page}>
         <h1>Terms of Service</h1>
-        <h2>21. Terms</h2>
+        <h2>1. Terms</h2>
         <p>
           By accessing our app, Läke, you are agreeing to be bound by these
           terms of service, all applicable laws and regulations, and agree that
